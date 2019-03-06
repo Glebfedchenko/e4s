@@ -1,0 +1,41 @@
+.input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+
+  &__inner {
+      height: 100%;
+      input {
+        width: 100%;
+        height: 100%;
+        border: 4px solid;
+        border-radius: 4px;
+        outline: 0;
+        padding: 10px;
+        transition: .4s ease;
+
+        &:focus{
+          border-color: rebeccapurple;
+          box-shadow: 0 0 8px 0;
+        }
+      }
+    }
+  &__button {
+    cursor: pointer;
+    background: none;
+    outline: 0;
+    border:0;
+    &:hover{
+      .fa-5x {
+        transition: .4s ease;
+        color: rebeccapurple;
+      }
+    }
+  }
+.message {
+  position: absolute;
+  color: red;
+  font-weight: bold;
+}
+}
