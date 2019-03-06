@@ -1,3 +1,0 @@
-- npm i - install packages
-- npm start - run application
-- application input works both as input/search
